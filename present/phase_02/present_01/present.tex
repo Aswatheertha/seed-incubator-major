@@ -165,16 +165,16 @@
 
 \end{frame}
 
-\begin{frame} {Block Diagram: GMU - TinyML}
+%\begin{frame} {Block Diagram: GMU - TinyML}
 
-    \begin{center}
+    %\begin{center}
 
-        \includegraphics[width = \textwidth]{tinyml.png}
+        %\includegraphics[width = \textwidth]{tinyml.png}
 
-    \end{center}
+    %\end{center}
 
 
-\end{frame}
+%\end{frame}
 
 \begin{frame}{Block Diagram: GMU - Rail System Architecture}
 
@@ -258,7 +258,18 @@
         \includegraphics[height = 0.85\textheight]{gmu/Atmega_stepper_circuit.jpg}
 
         \vspace{-0.25cm}
-        \textbf{KiCAD Rendering of GMU Controlling Circuit}
+        \textbf{GMU Controlling Circuit}
+    \end{center}
+
+\end{frame}
+
+\begin{frame} {Results: GMU - Rail Circuit}
+
+    \begin{center}
+        \includegraphics[height = 0.85\textheight]{gmu/rail_circuit.jpeg}
+
+        \vspace{-0.25cm}
+        \textbf{GMU Rail system circuit for XY motion control }
     \end{center}
 
 \end{frame}
@@ -267,115 +278,58 @@
 
     \begin{center}
 
-        \begin{tabular} {ccc}
-            \includegraphics[height = 0.85\textheight]{sinc/app_1.jpg}
+        \begin{tabular} {cccc}
+            \includegraphics[height = 0.75\textheight]{sinc/app_1.jpg}
             &
-            \includegraphics[height = 0.85\textheight]{sinc/app_3.jpg}
+            \includegraphics[height = 0.75\textheight]{sinc/app_3.jpg}
             &
-            \includegraphics[height = 0.85\textheight]{sinc/app_2.jpg}
+            \includegraphics[height = 0.75\textheight]{sinc/app_2.jpg}
+            &
+            \includegraphics[height = 0.75\textheight]{sinc/fan_control.jpeg}
             \\
         \end{tabular}
 
 
         \vspace{-0.25cm}
-        \textbf{Live Feed from GMU within SINC App}
+        \textbf{SINC App UI \& Live Feed from GMU}
     \end{center}
 
 \end{frame}
 
 % <start week num> <end week num> <start date> <end date> <content>
-\newcommand\workPlanStageShow[5] {
-    \begin{minipage}{0.207\textwidth}
-        \textbf{Week #1 - #2}
-        \vspace{0.25cm} \\
-        \texttt{START: \hfill #3 \\ END: \hfill #4}
-    \end{minipage}
-    \hfill
-    \begin{minipage}{0.725\textwidth}
-        \vspace{0.75cm}
-        #5
-    \end{minipage}
-}
+% \begin{minipage}{0.207\textwidth}
+   %     \textbf{Week #1 - #2}
+      %  \vspace{0.25cm} \\
+        %\texttt{START: \hfill #3 \\ END: \hfill #4}
+    %\end{minipage}
+    %\hfill
+   % \begin{minipage}{0.725\textwidth}
+        %\vspace{0.75cm}
+        %%#5
+    %\end{minipage}
+%}
 
-\begin{frame}[allowframebreaks] {Work Plan}
+%\begin{frame}[allowframebreaks] {Work Plan}
 
-    \renewcommand\arraystretch{1.75}
-    \renewcommand\midrule{{\color{leafColorSecondary} \vspace{-8pt}\rule{\textwidth}{0.75pt}\vspace{8pt}}}
+    %\renewcommand\arraystretch{1.75}
+   % \renewcommand\midrule{{\color{leafColorSecondary} \vspace{-8pt}\rule{\textwidth}{0.75pt}\vspace{8pt}}}
 
-    \begin{xltabular} {\textwidth} {
-            >{\raggedright \arraybackslash}X
-        }
+    %\begin{xltabular} {\textwidth} {
+            %>{\raggedright \arraybackslash}X
+       % }
 
         % stage 06
-        \workPlanStageShow {11} {12}
-        {DEC 14 2025} {DEC 27 2025} {
-            \begin{todolist}
-                \item First thing.
-                \item Second thing.
-            \end{todolist}
-        }
-        \\ \midrule
-
-        % stage 07
-        \workPlanStageShow {13} {14}
-        {DEC 28 2025} {JAN 10 2026} {
-            % \begin{itemize}
-            %     \item First thing.
-            %     \item Second thing.
-            % \end{itemize}
-        }
-        \\ \midrule
-
-        % stage 08
-        \workPlanStageShow {15} {16}
-        {JAN 11 2026} {JAN 24 2026} {
-            % \begin{itemize}
-            %     \item First thing.
-            %     \item Second thing.
-            % \end{itemize}
-        }
-        \\ \midrule
-
-        % stage 09
-        \workPlanStageShow {17} {20}
-        {JAN 25 2026} {FEB 07 2026} {
-            % \begin{itemize}
-            %     \item First thing.
-            %     \item Second thing.
-            % \end{itemize}
-        }
-        \\ \midrule
-
-        % stage 10
-        \workPlanStageShow {21} {22}
-        {FEB 08 2026} {FEB 21 2026} {
-            % \begin{itemize}
-            %     \item First thing.
-            %     \item Second thing.
-            % \end{itemize}
-        }
-        \\ \midrule
-
-        % stage 11
-        \workPlanStageShow {23} {24}
-        {FEB 22 2026} {MAR 07 2026} {
-            % \begin{itemize}
-            %     \item First thing.
-            %     \item Second thing.
-            % \end{itemize}
-        }
-        \\ \midrule
-
-        % stage 12
-        \workPlanStageShow {25} {26}
-        {MAR 08 2026} {MAR 21 2026} {
-            % \begin{itemize}
-            %     \item First thing.
-            %     \item Second thing.
-            % \end{itemize}
-        }
-        \\ \midrule
-
+        %\workPlanStageShow {11} {24}
+       % {DEC 14 2025} {MAR 02 2025} {
+           % \begin{todolist}
+               % \item Assembling of components.
+               % \item Tested functionality of rail system circuit.
+                %\item Completion of App features.
+               %\item Enhanced UI of SINC.
+               %\item Midlayer design and implementation.
+            %\end{todolist}
+       % }
+        
         % % stage 07
         % Week 13 - 14
         % &
@@ -411,9 +365,35 @@
         % &
         % <++>
 
-        \\
+        %\\
 
-    \end{xltabular}
+    %\end{xltabular}
+%\end{frame}
+\begin{frame}{Work Completion Status \\ Seed Incubation Plant}
+
+	\begin{itemize}
+	    \item \textbf{Assembling of Components} \hfill \textcolor{green!70!black}{\checkmark Completed}
+	    \vspace{2pt}
+	    
+	    \item \textbf{Rail System Circuit Testing} \hfill \textcolor{green!70!black}{\checkmark Completed}
+	    \vspace{2pt}
+	    
+	    \item \textbf{SINC App Feature Development} \hfill \textcolor{green!70!black}{\checkmark Completed}
+	    \vspace{2pt}
+	    
+	    \item \textbf{SINC UI Enhancement} \hfill \textcolor{green!70!black}{\checkmark Completed}
+	    \vspace{2pt}
+	    
+	    \item \textbf{Midlayer Design \& Implementation} \hfill \textcolor{green!70!black}{\checkmark Completed}
+              \vspace{2pt}
+              \item \textbf{Assembling of Rail System} \hfill \textcolor{orange!80!black}{\(\sim\) In Progress}
+	    \vspace{2pt}
+              \item \textbf{Assembling of EMCU \& GMU parts in the enclosure } \hfill \textcolor{orange!80!black}{\(\sim\) In Progress}
+	    \vspace{2pt}
+              \item \textbf{Final readings and data collection } \hfill \textcolor{orange!80!black}{\(\sim\) In Progress}
+	    \vspace{2pt}
+	\end{itemize}
+
 
 \end{frame}
 
@@ -429,6 +409,51 @@
 
 \end{frame}
 
-\input{thank_you.tex}
+\begin{frame} {Conference}
+
+    \begin{center}
+        \begin{tabular}{cc}
+	        \includegraphics[height = 0.75\textheight]{gmu/conference_reply.jpeg}
+	        &
+	        \includegraphics[height = 0.75\textheight]{gmu/conference_mail.jpeg}
+	        \\     
+       \end{tabular}
+       \vspace{-0.25cm}
+       \textbf{Reply Mail for submitting Seed Incubation Plant Conference Paper in NIER Conference 2026 }
+    \end{center}
+
+\end{frame}
+
+\begin{frame} {Conference}
+
+    \begin{center}
+        \includegraphics[height = 0.85\textheight]{gmu/conference_accepted.jpeg}
+       
+        \vspace{-0.25cm}
+        \textbf{Acceptance Letter for Seed Incubation Plant Conference Paper in NIER Conference 2026 }
+    \end{center}
+
+\end{frame}
+
+\begin{frame}[plain]
+
+	\begin{tikzpicture}[remember picture, overlay]
+	
+		    % Horizontal line
+		    \draw[leafColorSecondary, thick, line cap=round]
+		        ($(current page.center)+(-1.75,0)$) --
+		        ($(current page.center)+(1.75,0)$);
+		
+		    % Icon (above line)
+		    \node at ($(current page.center)+(0,0.8)$)
+		        {\includegraphics[width=1cm]{icon_line.pdf}};
+		
+		    % Thank You text (below line)
+		    \node at ($(current page.center)+(0,-0.8)$)
+		        {\Large\scshape Thank You};
+		
+	\end{tikzpicture}
+
+\end{frame}
 
 \end{document}
